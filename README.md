@@ -15,11 +15,11 @@ Authentication: Firebase
 Deployment: Cloudfare
 📸 Screenshots
 Home Page
-<img src="https://via.placeholder.com/800x400" alt="Home Page Screenshot" />
+<img src="public\firebase_ss.png" alt="Home Page Screenshot" />
 Chat Interface
-<img src="https://via.placeholder.com/800x400" alt="Chat Interface Screenshot" />
+<img src="public/chat_interface.png" alt="Chat Interface Screenshot" />
 🔧 Installation
-Clone the repository:
+Clone the repository:s
 bash
 Copy code
 git clone https://github.com/rajvelr75/Chat-App.git
