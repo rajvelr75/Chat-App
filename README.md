@@ -15,9 +15,9 @@ Authentication: Firebase
 Deployment: Cloudfare
 📸 Screenshots
 Home Page
-<img src="public/chat_interface.png" alt="Home Page Screenshot" />
+<img src="https://via.placeholder.com/800x400" alt="Home Page Screenshot" />
 Chat Interface
-<img src="public/firebase_ss.png" alt="Chat Interface Screenshot" />
+<img src="https://via.placeholder.com/800x400" alt="Chat Interface Screenshot" />
 🔧 Installation
 Clone the repository:
 bash
