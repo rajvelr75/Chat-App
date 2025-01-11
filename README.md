@@ -1,28 +1,42 @@
-Chat App
-A real-time web chat application built with modern web technologies to facilitate seamless communication. This project showcases features like user authentication, instant messaging, media Sharing and a responsive user interface.
+A real-time web chat application built with modern web technologies to facilitate seamless communication. This project showcases features like user authentication, instant messaging, media sharing, and a responsive user interface.  
 
-🚀 Features
-Real-Time Messaging: Send and receive messages instantly.
-User Authentication: Secure login and registration using Firebase.
-Responsive Design: Fully responsive UI, optimized for desktop and mobile devices.
-User-Friendly Interface: Clean and modern design for an excellent user experience.
-Scalability: Built with scalable architecture to support multiple concurrent users.
-🛠️ Tech Stack
-Frontend: React.js, Tailwind CSS
-Backend: Javascript
-Database: Firebase
-Authentication: Firebase
-Deployment: Cloudfare
-📸 Screenshots
-Home Page
-<img src="public\firebase_ss.png" alt="Home Page Screenshot" />
-Chat Interface
-<img src="public/chat_interface.png" alt="Chat Interface Screenshot" />
-🔧 Installation
-Clone the repository:s
-bash
-Copy code
-git clone https://github.com/rajvelr75/Chat-App.git
+---
+
+## 🚀 Features  
+
+- **Real-Time Messaging**: Send and receive messages instantly.  
+- **User Authentication**: Secure login and registration using Firebase.  
+- **Responsive Design**: Fully responsive UI, optimized for desktop and mobile devices.  
+- **User-Friendly Interface**: Clean and modern design for an excellent user experience.  
+- **Scalability**: Built with scalable architecture to support multiple concurrent users.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React.js, Tailwind CSS  
+- **Backend**: JavaScript  
+- **Database**: Firebase  
+- **Authentication**: Firebase  
+- **Deployment**: Cloudflare  
+
+---
+
+## 📸 Screenshots  
+
+### Home Page  
+![Home Page Screenshot](public/firebase_ss.png)  
+
+### Chat Interface  
+![Chat Interface Screenshot](public/chat_interface.png)  
+
+---
+
+## 🔧 Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/rajvelr75/Chat-App.git
 Navigate to the project directory:
 bash
 Copy code
@@ -49,26 +63,23 @@ Start chatting with other users in real time!
 📂 Folder Structure
 java
 Copy code
-Chat-App/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── utils/
-│   ├── App.js
-│   ├── index.js
-│   └── styles.css
-├── .env
-├── package.json
-└── README.md
-
+Chat-App/  
+├── public/  
+├── src/  
+│   ├── components/  
+│   ├── pages/  
+│   ├── utils/  
+│   ├── App.js  
+│   ├── index.js  
+│   └── styles.css  
+├── .env  
+├── package.json  
+└── README.md  
 🌟 Features in Detail
 Authentication: Secure user authentication to ensure privacy.
 Message History: View past messages with users.
 🚀 Live Demo
 Check out the live version here: Chat App Live Demo
-
-https://chat-app-9r2.pages.dev/login
 
 🤝 Contributing
 Contributions are welcome! Here's how you can get started:
