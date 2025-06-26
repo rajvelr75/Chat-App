@@ -3,7 +3,7 @@ import {createUserWithEmailAndPassword, updateProfile} from "firebase/auth";
 import { auth ,storage, db} from '../firebase';
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore"; 
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Register = () => {
@@ -49,7 +49,7 @@ const Register = () => {
                 email,
                 photoURL: downloadURL,
               });
-  
+              await setDoc(doc(db, "userChats", res.user.uid), {});
               // Redirect to home page after successful registration
               navigate("/login");
   
@@ -66,11 +66,8 @@ const Register = () => {
       setErr(true);
     }
   };
+
   
-  
-
-
-
   return (
     <div className="min-h-screen bg-gray-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
@@ -108,7 +105,7 @@ const Register = () => {
           {err && <span>Something went Wrong</span>}
         </form>
         <div className="text-center">
-          <h5 className="text-gray-400">Do have an Account? <a href="/login" className="text-yellow-400 hover:text-yellow-500">Login</a></h5>
+          <h5 className="text-gray-400">Do have an Account? <Link to="/login" className="text-yellow-400 hover:text-yellow-500">Login</Link></h5>
         </div>
       </div>
     </div>
